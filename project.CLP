@@ -129,7 +129,7 @@ que mejor te describa ; un '2' a la siguiente mejor, y un '1' a la palabra que m
 =>
     (printout t "Puntuacion maxima es ---> " ?id crlf)
 
-	; Si la puntuacion final es 70 y dependiendo de que campo (lider, extrovertida, calmada, pr·ctica) es el maximo, se printea la conclusion:
+	; Si la puntuacion final es 70 y dependiendo de que campo (lider, extrovertida, calmada, pr√°ctica) es el maximo, se printea la conclusion:
 
 	(if (and (eq ?id Lider) (eq ?*finalpoint* 70)) then (printout t "Eres una persona lider. Te caracterizas por tu gran capacidad de motivacion y comunicacion,
 	    eres capaz de resolver situaciones dificiles con gran rapidez y no tienes problemas a la hora de llevar la iniciativa de un trabajo o un proyecto. Este tipo
